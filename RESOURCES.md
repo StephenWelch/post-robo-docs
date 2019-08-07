@@ -7,6 +7,7 @@ I am not responsible for updating this list - you are.
 [FRC Documentation (ReadTheDocs) (Newer than Screensteps)](https://frc-docs.readthedocs.io/en/latest/)
 [Talon SRX Software Reference Manual (Old, but more detailed)](https://www.ctr-electronics.com/downloads/pdf/Talon%20SRX%20Software%20Reference%20Manual-3.pdf)
 [CTRE Phoenix Documentation (Newer, up-to-date manual for Talon SRX, Victor SPX, etc API)](https://phoenix-documentation.readthedocs.io/en/latest/index.html)
+[Spark MAX Documentation](http://www.revrobotics.com/sparkmax-software/)
 
 ## Control Theory
 [Controls Challenges](https://janismac.github.io/ControlChallenges/)
@@ -17,6 +18,7 @@ I am not responsible for updating this list - you are.
 ## Javadocs
 [CTRE Phoenix Javadocs](https://www.ctr-electronics.com/downloads/api/java/html/index.html)
 [Spark MAX Javadocs](http://www.revrobotics.com/content/sw/max/sw-docs/java/index.html)
+[Spark MAX API Docs](http://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Java-API-Offline.pdf)
 [WPILib Javadocs](https://first.wpi.edu/FRC/roborio/release/docs/java/)
 
 ## Path and Trajectory Following
