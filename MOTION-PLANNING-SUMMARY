@@ -27,6 +27,6 @@ After school started, I started working with an actual robot. In order to follow
 - It was already integrated with their crazy-fast trajectory generation library - writing the trajectory follower from scratch meant I would either have to interface with it or just use pre-generated trajectories from Pathfinder.
 It took me a really, really long time to get everything to work correctly - far past my target date of October 26th and into December. The challenge was determining where the root of problems were, working out bugs, and especially isolating errors in motor controller configuration. To do that, I logged data to CSV files on the RIO which I would `scp` to my laptop and plot with GNUPlot.
 
-I finally got to a working version by the beginning of January, in time for competition season. We didn't end up using it - but that's a whole different story.
+I finally got to a working version by the beginning of January, in time for competition season. We didn't end up using it during competition - but that's a whole different story.
 
 
