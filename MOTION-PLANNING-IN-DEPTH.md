@@ -7,6 +7,7 @@ A path is a sequence of waypoints for the robot to follow, while a trajectory is
 
 ## Comparison of Techniques
 Ordered from least difficult to most difficult to implement.
+Keep in mind that any method that accounts for X and Y error requires tracking the robot's position, which adds complexity.
 
 ### Pure Trajectory Following
 - Converts a trajectory into a set of velocities for each side of the drivetrain to follow using PIDVA
