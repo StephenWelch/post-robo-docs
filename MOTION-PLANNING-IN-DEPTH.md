@@ -1,6 +1,6 @@
 # Motion Planning
 
-This document will go in-depth into how to drive a robot in a specific, repeatable trajectory and explain the concepts and algorithms needed to do so. It will roughly follow the same arc that my own self-learning did over the course of roughly 7 months from June 2018 to December 2018.
+This document will go in-depth into how to drive a robot in a precise, repeatable trajectory and explain the concepts and algorithms needed to do so. It will roughly follow the same arc that I did over the course of roughly 7 months from June 2018 to December 2018.
 
 ## Trajectories vs. Paths
 A path is a sequence of waypoints for the robot to follow, while a trajectory is a sequence of time-indexed waypoints. In other words, in addition to position and any other information each waypoint has a time assigned to it. The robot is expected to be at each waypoint at this time in addition to meeting any other constraint the waypoint imposes (linear velocity, centripetal acceleration, etc.).
@@ -61,7 +61,7 @@ Keep in mind that any method that accounts for X and Y error requires tracking t
 - Guarantees a specific heading at end of trajectory
 
 #### Cons
-- Hard to implement
+- Harder to implement
 - Complexity makes it harder to debug
 
 ## Basic Trajectory Following
